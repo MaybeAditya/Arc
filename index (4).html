@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arc Scanner | Circular Luxury</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ARC PROTOCOL</h1>
+            <p>Digital Product Passport Scanner</p>
+        </header>
+
+        <main>
+            <div class="video-container">
+                <video id="camera-feed" autoplay playsinline></video>
+            </div>
+
+            <button id="scan-btn">Scan Asset</button>
+
+            <div id="results-panel" class="hidden">
+                <h3>Asset Analysis</h3>
+                <p><strong>Location:</strong> <span id="location-data">Locating...</span></p>
+                <p><strong>AI Assessment:</strong> <span id="ai-data">Analyzing wear and tear...</span></p>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
