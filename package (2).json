@@ -1,0 +1,8 @@
+{
+  "name": "arc-scanner",
+  "version": "1.0.0",
+  "description": "Arc Protocol Scanner",
+  "dependencies": {
+    "@google/generative-ai": "latest"
+  }
+}
